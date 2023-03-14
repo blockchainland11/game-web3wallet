@@ -17,7 +17,7 @@ async function loadApp() {
 
 function processAction() {
   const urlParams = new URLSearchParams(window.location.search);
-  console("21   "+urlParams);
+ 
   const action = urlParams.get("action");
   const message = urlParams.get("message");
   const chainId = urlParams.get("chainId") || 1;
